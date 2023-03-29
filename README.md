@@ -8,7 +8,7 @@ This repository contains R code for plotting temperature data from different ani
 
 ## 2. Daily Temperature of Pigs 
 
-![alt text](temp1.svg)
+<img src = "https://github.com/sulovek/clinicaltrialusingR/blob/5f8ae127b6fdaf2914821138b645c6787bb73418/Plot%20Results/temp1.svg">
 
 
 
