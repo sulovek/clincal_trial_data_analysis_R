@@ -4,6 +4,7 @@ library(ggplot2)
 library(dplyr)
 library(psych)
 library(broom)
+library(kableExtra)
 
 temperature <- read_excel("D:/Github Folder/githubtestsulove/Dataset/temperature_data.xlsx")
 
@@ -45,4 +46,5 @@ ggplot(sem)+
 
 ## Statistical Testing
 p_values <- data %>% group_by(variable) %>% do(tidy(t.test(value~Group, data=.)))
-p_values
+
+kable(p_values, format = "html") %>% kable_styling(bootstrap_options = "striped")
