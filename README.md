@@ -15,7 +15,10 @@ Filenames in the repository
 
 <img src = "https://github.com/sulovek/clinicaltrialusingR/blob/5f8ae127b6fdaf2914821138b645c6787bb73418/Plot%20Results/temp1.svg">
 
-## 3. Kaplan-Meier Survival Curves
+## 3. Statistical comparision of daily temperature of two groups. 
+
+
+## 4. Kaplan-Meier Survival Curves
 <img src = "https://github.com/sulovek/clinicaltrialusingR/blob/f2c3d1ac6c1ac9cc71238b3392cd298974178b5f/Plot%20Results/survival.svg">
 In the figure, the p value represents the log-rank test. If you want to add the risk table, simple put risk.table value as "T" instead of "F" as written in the example dataset. 
 
