@@ -12,6 +12,7 @@ This repository contains R code for plotting temperature data and survival curve
 
 ## 3. Kaplan-Meier Survival Curves
 <img src = "https://github.com/sulovek/clinicaltrialusingR/blob/f2c3d1ac6c1ac9cc71238b3392cd298974178b5f/Plot%20Results/survival.svg">
+In the figure, the p value represents the log-rank test. If you want to add the risk table, simple put risk.table value as "T" instead of "F" written in the example dataset. 
 
 ## Collaboration
 If you need help in making plots for clinical trial. Do not hesitate to contact me by email: sulovekoriala@gmail.com
