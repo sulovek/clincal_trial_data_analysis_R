@@ -4,3 +4,9 @@ This repository contains R code for plotting temperature data from different ani
 
 ## 1. Daily Mean Temperature of Groups (with Standard Error in Mean) 
 
+![alt text](temp0.svg)
+
+## 2. Daily Temperature of Pigs 
+
+![alt text](temp1.svg)
+
