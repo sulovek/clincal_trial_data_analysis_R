@@ -32,13 +32,12 @@ sem <- data %>%
 
 ggplot(sem)+
   aes(x = variable, y = describ$mean, color = Group)+
-  geom_pointrange(aes(x = variable, ymin = describ$mean-describ$se, ymax = describ$mean+describ$se, shape = factor(Group)),position = position_dodge2(width = 0.15),size = 1.9)+
+  geom_pointrange(aes(x = variable, ymin = describ$mean-describ$se, ymax = describ$mean+describ$se, shape = Group),position = position_dodge2(width = 0.09),size = 1.2)+
   geom_line(aes(group = Group), size = 1.2)+
   geom_hline(yintercept = 37.6, linetype = 'dashed', size = 1.2)+
   geom_hline(yintercept = 39.7, linetype = 'dashed', size = 1.2)+
-  theme_classic(base_size = 30)+
+  theme_classic(base_size = 28)+
   scale_y_continuous(breaks = seq(36.5, 42.5, by = 0.5))+
-  scale_color_manual(values = c("darkgreen", "red","blue"))+
-  labs(x = "Days", y = "Rectal Temperature (\u00B0C)", caption = "Figure 2.1. Daily mean temperature of two groups. The bars represents standard error in mean.")+
-  guides(color = guide_legend(override.aes = list(linetype = c("solid", "dashed"))))
+  scale_color_manual(values = c("darkgreen", "red"))+
+  labs(x = "Days", y = "Rectal Temperature (\u00B0C)", caption = "Figure 2.1. Daily mean temperature of Group A and Group B. The bars represents standard error in mean.")
 
