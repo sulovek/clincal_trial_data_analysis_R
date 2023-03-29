@@ -3,6 +3,7 @@ library(reshape)
 library(ggplot2)
 library(dplyr)
 library(psych)
+library(broom)
 
 temperature <- read_excel("D:/Github Folder/githubtestsulove/Dataset/temperature_data.xlsx")
 
@@ -42,3 +43,6 @@ ggplot(sem)+
   scale_color_manual(values = c("darkgreen", "red"))+
   labs(x = "Days", y = "Rectal Temperature (\u00B0C)", caption = "Figure 2.1. Daily mean temperature of Group A and Group B. The bars represents standard error in mean.")
 
+## Statistical Testing
+p_values <- data %>% group_by(variable) %>% do(tidy(t.test(value~Group, data=.)))
+p_values
