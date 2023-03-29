@@ -37,7 +37,7 @@ ggplot(sem)+
   geom_line(aes(group = Group), size = 1.2)+
   geom_hline(yintercept = 37.6, lineQQtype = 'dashed', size = 1.2)+
   geom_hline(yintercept = 39.7, linetype = 'dashed', size = 1.2)+
-  theme_classic(base_size = 28)+
+  theme_classic(base_size = 20)+
   scale_y_continuous(breaks = seq(36.5, 42.5, by = 0.5))+
   scale_color_manual(values = c("darkgreen", "red"))+
   labs(x = "Days", y = "Rectal Temperature (\u00B0C)", caption = "Figure 2.1. Daily mean temperature of Group A and Group B. The bars represents standard error in mean.")
