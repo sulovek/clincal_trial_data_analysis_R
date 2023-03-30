@@ -156,7 +156,7 @@ A line of code in R has compared the daily mean rectal temperature of animals of
 </table>
 
 ## 4. Kaplan-Meier Survival Curves
-<img src = "https://github.com/sulovek/clinicaltrialusingR/blob/f2c3d1ac6c1ac9cc71238b3392cd298974178b5f/Plot%20Results/survival.svg">
+<img src = "https://raw.githubusercontent.com/sulovek/clincal_trial_data_analysis_R/main/Plot%20Results/survival.svg">
 In the figure, the p value represents the log-rank test. If you want to add the risk table, simple put risk.table value as "T" instead of "F" as written in the example dataset. 
 
 ## Collaboration
