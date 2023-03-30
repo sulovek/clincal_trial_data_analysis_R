@@ -16,6 +16,8 @@ Filenames in the repository
 <img src = "https://github.com/sulovek/clinicaltrialusingR/blob/5f8ae127b6fdaf2914821138b645c6787bb73418/Plot%20Results/temp1.svg">
 
 ## 3. Statistical comparision of daily temperature of two groups. 
+A line of code in R has compared the daily mean rectal temperature of animals of two groups. The detailed statistics are show in the table. The test used here is Welch Two Sample t-test. The significance is displayed in the p-value column in the table. 
+
 <table>
  <thead>
   <tr>
