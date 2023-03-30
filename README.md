@@ -159,6 +159,8 @@ A line of code in R has compared the daily mean rectal temperature of animals of
 <img src = "https://raw.githubusercontent.com/sulovek/clincal_trial_data_analysis_R/main/Plot%20Results/survival.svg">
 In the figure, the p value represents the log-rank test. If you want to add the risk table, simple put risk.table value as "T" instead of "F" as written in the example dataset. 
 
+## Editing Plots in PowerPoint 
+
 ## Collaboration
 If you need help in making plots for clinical trial. Do not hesitate to contact me by email: sulovekoriala@gmail.com
 
