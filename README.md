@@ -16,7 +16,142 @@ Filenames in the repository
 <img src = "https://github.com/sulovek/clinicaltrialusingR/blob/5f8ae127b6fdaf2914821138b645c6787bb73418/Plot%20Results/temp1.svg">
 
 ## 3. Statistical comparision of daily temperature of two groups. 
-
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> variable </th>
+   <th style="text-align:right;"> estimate </th>
+   <th style="text-align:right;"> estimate1 </th>
+   <th style="text-align:right;"> estimate2 </th>
+   <th style="text-align:right;"> statistic </th>
+   <th style="text-align:right;"> p.value </th>
+   <th style="text-align:right;"> parameter </th>
+   <th style="text-align:right;"> conf.low </th>
+   <th style="text-align:right;"> conf.high </th>
+   <th style="text-align:left;"> method </th>
+   <th style="text-align:left;"> alternative </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> 0 </td>
+   <td style="text-align:right;"> 0.3285714 </td>
+   <td style="text-align:right;"> 38.64286 </td>
+   <td style="text-align:right;"> 38.31429 </td>
+   <td style="text-align:right;"> 0.6921142 </td>
+   <td style="text-align:right;"> 0.5036744 </td>
+   <td style="text-align:right;"> 10.651101 </td>
+   <td style="text-align:right;"> -0.7205064 </td>
+   <td style="text-align:right;"> 1.3776492 </td>
+   <td style="text-align:left;"> Welch Two Sample t-test </td>
+   <td style="text-align:left;"> two.sided </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 1 </td>
+   <td style="text-align:right;"> -1.0857143 </td>
+   <td style="text-align:right;"> 38.37143 </td>
+   <td style="text-align:right;"> 39.45714 </td>
+   <td style="text-align:right;"> -3.0473224 </td>
+   <td style="text-align:right;"> 0.0101351 </td>
+   <td style="text-align:right;"> 11.999876 </td>
+   <td style="text-align:right;"> -1.8619928 </td>
+   <td style="text-align:right;"> -0.3094358 </td>
+   <td style="text-align:left;"> Welch Two Sample t-test </td>
+   <td style="text-align:left;"> two.sided </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 2 </td>
+   <td style="text-align:right;"> -2.3571429 </td>
+   <td style="text-align:right;"> 38.67143 </td>
+   <td style="text-align:right;"> 41.02857 </td>
+   <td style="text-align:right;"> -5.0895875 </td>
+   <td style="text-align:right;"> 0.0003626 </td>
+   <td style="text-align:right;"> 10.873212 </td>
+   <td style="text-align:right;"> -3.3779381 </td>
+   <td style="text-align:right;"> -1.3363476 </td>
+   <td style="text-align:left;"> Welch Two Sample t-test </td>
+   <td style="text-align:left;"> two.sided </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 3 </td>
+   <td style="text-align:right;"> -2.6571429 </td>
+   <td style="text-align:right;"> 38.20000 </td>
+   <td style="text-align:right;"> 40.85714 </td>
+   <td style="text-align:right;"> -4.2091935 </td>
+   <td style="text-align:right;"> 0.0012296 </td>
+   <td style="text-align:right;"> 11.919305 </td>
+   <td style="text-align:right;"> -4.0335982 </td>
+   <td style="text-align:right;"> -1.2806875 </td>
+   <td style="text-align:left;"> Welch Two Sample t-test </td>
+   <td style="text-align:left;"> two.sided </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 4 </td>
+   <td style="text-align:right;"> -2.2714286 </td>
+   <td style="text-align:right;"> 39.15714 </td>
+   <td style="text-align:right;"> 41.42857 </td>
+   <td style="text-align:right;"> -3.5461989 </td>
+   <td style="text-align:right;"> 0.0056416 </td>
+   <td style="text-align:right;"> 9.608275 </td>
+   <td style="text-align:right;"> -3.7065333 </td>
+   <td style="text-align:right;"> -0.8363238 </td>
+   <td style="text-align:left;"> Welch Two Sample t-test </td>
+   <td style="text-align:left;"> two.sided </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 5 </td>
+   <td style="text-align:right;"> -2.9571429 </td>
+   <td style="text-align:right;"> 38.38571 </td>
+   <td style="text-align:right;"> 41.34286 </td>
+   <td style="text-align:right;"> -6.6259085 </td>
+   <td style="text-align:right;"> 0.0001317 </td>
+   <td style="text-align:right;"> 8.407431 </td>
+   <td style="text-align:right;"> -3.9776954 </td>
+   <td style="text-align:right;"> -1.9365903 </td>
+   <td style="text-align:left;"> Welch Two Sample t-test </td>
+   <td style="text-align:left;"> two.sided </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 6 </td>
+   <td style="text-align:right;"> -2.9857143 </td>
+   <td style="text-align:right;"> 37.94286 </td>
+   <td style="text-align:right;"> 40.92857 </td>
+   <td style="text-align:right;"> -6.4103192 </td>
+   <td style="text-align:right;"> 0.0000602 </td>
+   <td style="text-align:right;"> 10.565627 </td>
+   <td style="text-align:right;"> -4.0160258 </td>
+   <td style="text-align:right;"> -1.9554028 </td>
+   <td style="text-align:left;"> Welch Two Sample t-test </td>
+   <td style="text-align:left;"> two.sided </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 7 </td>
+   <td style="text-align:right;"> -2.4571429 </td>
+   <td style="text-align:right;"> 38.24286 </td>
+   <td style="text-align:right;"> 40.70000 </td>
+   <td style="text-align:right;"> -4.7419341 </td>
+   <td style="text-align:right;"> 0.0006469 </td>
+   <td style="text-align:right;"> 10.751524 </td>
+   <td style="text-align:right;"> -3.6008583 </td>
+   <td style="text-align:right;"> -1.3134274 </td>
+   <td style="text-align:left;"> Welch Two Sample t-test </td>
+   <td style="text-align:left;"> two.sided </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> 8 </td>
+   <td style="text-align:right;"> -2.2000000 </td>
+   <td style="text-align:right;"> 38.72857 </td>
+   <td style="text-align:right;"> 40.92857 </td>
+   <td style="text-align:right;"> -3.3957739 </td>
+   <td style="text-align:right;"> 0.0064020 </td>
+   <td style="text-align:right;"> 10.461637 </td>
+   <td style="text-align:right;"> -3.6349434 </td>
+   <td style="text-align:right;"> -0.7650566 </td>
+   <td style="text-align:left;"> Welch Two Sample t-test </td>
+   <td style="text-align:left;"> two.sided </td>
+  </tr>
+</tbody>
+</table>
 
 ## 4. Kaplan-Meier Survival Curves
 <img src = "https://github.com/sulovek/clinicaltrialusingR/blob/f2c3d1ac6c1ac9cc71238b3392cd298974178b5f/Plot%20Results/survival.svg">

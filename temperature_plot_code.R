@@ -47,4 +47,4 @@ ggplot(sem)+
 ## Statistical Testing
 p_values <- data %>% group_by(variable) %>% do(tidy(t.test(value~Group, data=.)))
 
-kable(p_values, format = "html") %>% kable_styling(bootstrap_options = "striped")
+kable(p_values, format = "html") %>% kable_styling(bootstrap_options = "basic")
