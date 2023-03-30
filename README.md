@@ -17,8 +17,8 @@ Filenames in the repository
 
 ## 3. Statistical comparision of daily temperature of two groups. 
 A line of code in R has compared the daily mean rectal temperature of animals of two groups. The detailed statistics are show in the table. The test used here is Welch Two Sample t-test. The significance is displayed in the p-value column in the table. 
-<font size = 10>
-<table>
+
+<table style = "width: 400 px; height: 200px;">
  <thead>
   <tr>
    <th style="text-align:left;"> Days </th>
@@ -154,7 +154,6 @@ A line of code in R has compared the daily mean rectal temperature of animals of
   </tr>
 </tbody>
 </table>
-</font>
 
 ## 4. Kaplan-Meier Survival Curves
 <img src = "https://github.com/sulovek/clinicaltrialusingR/blob/f2c3d1ac6c1ac9cc71238b3392cd298974178b5f/Plot%20Results/survival.svg">
