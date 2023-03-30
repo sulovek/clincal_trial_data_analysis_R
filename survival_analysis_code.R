@@ -1,11 +1,10 @@
 library(readxl)
 library(survival)
 library(survminer)
-library(readxl)
 library(ggthemes)
 
 library(readxl)
-survival <- read_excel("D:/Github Folder/githubtestsulove/Dataset/survival_analysis_data.xlsx")
+survival <- read.csv("https://raw.githubusercontent.com/sulovek/clincal_trial_data_analysis_R/main/Dataset/survival_analysis_data.csv")
 
 fit<-survfit(Surv(Time,Death)~Group,data=survival)
 summary(fit)

@@ -1,4 +1,3 @@
-library(readxl)
 library(reshape)
 library(ggplot2)
 library(dplyr)
@@ -6,11 +5,10 @@ library(psych)
 library(broom)
 library(knitr)
 
-temperature <- read_excel("D:/Github Folder/githubtestsulove/Dataset/temperature_data.xlsx")
+temperature <- read.csv("https://raw.githubusercontent.com/sulovek/clincal_trial_data_analysis_R/main/Dataset/temperature_data.csv")
 
-# Cleaning
-data <- as.data.frame(temperature)
-data <- melt(data, id.var = c('Animal_ID','Group'))
+# Converting the data format to recognizable format by ggplot
+data <- melt(temperature, id.var = c('Animal_ID','Group'))
 
 
 # Plots
