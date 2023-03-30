@@ -1,6 +1,6 @@
 # Description
 
-This repository contains R code for plotting temperature data and survival curves from different animal groups. I used this format of plot in my Master's Thesis. The example dataset consists of daily temperature and survival data of two groups of animals. You can add more groups to the data set as long as you do not destory the name of the columns. <b>In this example, the data were randomly generated. </b> 
+This repository contains R code for plotting temperature data and survival curves from different animal groups. I used this format of plot in my Master's Thesis (to be published soon). The example dataset consists of daily temperature and survival data of two groups of animals. You can add more groups to the data set as long as you do not destory the name of the columns. <b>In this example, the data were randomly generated. </b> 
 
 Filenames in the repository
 1. temperature_plot_code.R
