@@ -11,7 +11,7 @@ Filenames in the repository
 
 <img src="https://github.com/sulovek/githubtestsulove/blob/26b53a9f22702662870a1e39c3ad0489a2ef7bc2/Plot%20Results/temp0.svg">
 
-## 2. Daily Temperature of Pigs 
+## 2. Daily Temperature of Animals 
 
 <img src = "https://github.com/sulovek/clinicaltrialusingR/blob/5f8ae127b6fdaf2914821138b645c6787bb73418/Plot%20Results/temp1.svg">
 
