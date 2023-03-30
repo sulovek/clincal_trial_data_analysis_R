@@ -19,7 +19,7 @@ Filenames in the repository
 <table>
  <thead>
   <tr>
-   <th style="text-align:left;"> variable </th>
+   <th style="text-align:left;"> Days </th>
    <th style="text-align:right;"> estimate </th>
    <th style="text-align:right;"> estimate1 </th>
    <th style="text-align:right;"> estimate2 </th>
