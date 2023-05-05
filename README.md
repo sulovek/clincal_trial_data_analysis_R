@@ -160,7 +160,7 @@ A line of code in R has compared the daily mean rectal temperature of animals of
 In the figure, the p value represents the log-rank test. If you want to add the risk table, simple put risk.table value as "T" instead of "F" as written in the example dataset. 
 
 ## Editing Plots in PowerPoint 
-Annotating the plots using codes is time consuming. To make graphs that is directly editable in MS Powerpoint, [check this video](https://www.youtube.com/watch?v=8q5JTNF4jJE "Annotate in PowerPoint")
+Annotating the plots using codes is time consuming. To make graphs that is directly editable in MS Powerpoint, [check my Youtube video](https://www.youtube.com/watch?v=8q5JTNF4jJE "Annotate in PowerPoint")
 
 ## Collaboration
 If you need help in making plots for clinical trial. Do not hesitate to contact me by email: sulovekoriala@gmail.com
