@@ -1,6 +1,6 @@
 # Description
 
-This repository contains R codes for performing common clnical trial data analysis such as body temperature comparision and survival analysis. I used this format of plot in my Master's Thesis [Click here for the link] (https://harvest.usask.ca/handle/10388/14994). The example dataset consists of daily temperature and survival data of two groups of animals. You can add more groups to the data set as long as you do not destory the name of the columns. <b>In this example, the data were randomly generated. </b> 
+This repository contains R codes for performing common clnical trial data analysis such as body temperature comparision and survival analysis. I used this format of plot in my Master's Thesis [Click here for the link](https://harvest.usask.ca/handle/10388/14994). The example dataset consists of daily temperature and survival data of two groups of animals. You can add more groups to the data set as long as you do not destory the name of the columns. <b>In this example, the data were randomly generated. </b> 
 
 Filenames in the repository
 1. temperature_plot_code.R
